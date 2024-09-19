@@ -1,1 +1,0 @@
-The Basic structure of the sasnaka-members-dir is ready.
