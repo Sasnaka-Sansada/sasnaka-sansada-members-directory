@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Run npm install to install all the dependancies */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
