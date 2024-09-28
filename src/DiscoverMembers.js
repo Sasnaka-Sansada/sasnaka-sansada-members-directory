@@ -1,51 +1,24 @@
 import Account from './Card';
 
 
-function DiscoverMembers(){
-    return (
-        <div>
-            <div className='flex flex-row justify-around flex-wrap w-100'>
-              <div>
-                <Account label1="A Perera"/>
-              </div>
-              <div>
-                <Account label1="B Perera"/>
-              </div>
-              <div>
-                <Account label1="C Perera"/>
-              </div>
+function DiscoverMembers() {
+  const members = [
+      "A Perera", "B Perera", "C Perera", "D Perera", "E Perera", "F Perera", "G Perera", "H Perera", "I Perera", "G Perera", "H Perera", "I Perera"
+  ];
 
-              <div>
-                <Account label1="D Perera"/>
-              </div>
-              <div>
-                <Account label1="E Perera"/>
-              </div>
-              <div>
-                <Account label1="F Perera"/>
-              </div>
-              <div>
-                <Account label1="G Perera"/>
-              </div>
-              <div>
-                <Account label1="H Perera"/>
-              </div>
-              <div>
-                <Account label1="I Perera"/>
-              </div>
-              <div>
-                <Account label1="G Perera"/>
-              </div>
-              <div>
-                <Account label1="H Perera"/>
-              </div>
-              <div>
-                <Account label1="I Perera"/>
-              </div>
+  return (
+      <div>
+        <div className='flex flex-row justify-around flex-wrap w-100'>
+          {members.map((member, index) => (
+            <div key={index}>
+              <Account label1={member} />
             </div>
+          ))}
         </div>
-    )
-}        
+      </div>
+  );
+}
+    
 
 export default DiscoverMembers;
 

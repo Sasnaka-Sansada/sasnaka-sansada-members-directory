@@ -1,5 +1,5 @@
-import arrow from './components/arrow.png';
-import user from './components/user.png';
+import arrow from './assests/arrow.png';
+import user from './assests/user.png';
 
 
 function Test() {

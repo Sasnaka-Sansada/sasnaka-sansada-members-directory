@@ -1,5 +1,5 @@
-import search from './components/search.png';
-import dropdown from './components/dropdown.png';
+import search from './assests/search.png';
+import dropdown from './assests/dropdown.png';
 
 function SearchBar() {
     return (
