@@ -4,35 +4,36 @@ import './Achievements.css';
 const Achievements = () => {
   return (
     <div className="container">
-      <div className="sections-wrapper"> {/* New wrapper */}
+      <div className="sections-wrapper"> 
         <div className="section">
-          <h2>Achievements</h2>
+        <h2 style={{ textAlign: 'center' }}>Achievements</h2>
           <div className="achievements">
-            <div className="achievement-item">
-              <div className="icon"></div>
-              <span>Participated in 5 Seminars</span>
-            </div>
-            <div className="achievement-item">
-              <div className="icon"></div>
-              <span>Participated in 10 charity events</span>
-            </div>
-            <div className="achievement-item">
-              <div className="icon"></div>
-              <span>Best Organizer</span>
-            </div>
-            <div className="achievement-item">
-              <div className="icon"></div>
-              <span>Best Volunteer - 2022</span>
-            </div>
-            <div className="achievement-item">
-              <div className="icon"></div>
-              <span>Badge - Bronze</span>
-            </div>
+          <div className="achievement-item">
+  <div className="icon"></div>
+  <span className="font-custom">Participated in 5 Seminars</span>
+</div>
+<div className="achievement-item">
+  <div className="icon"></div>
+  <span className="font-custom">Participated in 10 charity events</span>
+</div>
+<div className="achievement-item">
+  <div className="icon"></div>
+  <span className="font-custom">Best Organizer</span>
+</div>
+<div className="achievement-item">
+  <div className="icon"></div>
+  <span className="font-custom">Best Volunteer - 2022</span>
+</div>
+<div className="achievement-item">
+  <div className="icon"></div>
+  <span className="font-custom">Badge - Bronze</span>
+</div>
+
           </div>
         </div>
 
         <div className="section">
-          <h2>Projects Contributed</h2>
+        <h2 style={{ textAlign: 'center' }}>Projects Contributed</h2>
           <div className="projects">
             <div className="project-item">
               <div className="icon project-icon"></div>
