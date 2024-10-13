@@ -1,5 +1,5 @@
 import React from "react";
-import Tune from "../assests/Tune.png";
+import Tune from "./assests/Tune.png";
 
 function MemberFilter() {
     return(

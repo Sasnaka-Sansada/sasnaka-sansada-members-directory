@@ -10,11 +10,11 @@
   .sections-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    min-width: fit-content;
   }
   
   .section-title {
-    text-align: center; /* Centers the text inside the container */
+    text-align: center; 
     font-size: 24px;
     margin-bottom: 20px; 
     margin-left: -500px;
@@ -26,8 +26,10 @@
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
+    border-style: solid;
+    border-color: #333;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 200px;
+    width: fit-content;
     margin-left: 20px;
     
   }
@@ -35,12 +37,14 @@
   
   .achievements {
     margin-top: 20px;
+    width: fit-content;
   }
   
   .achievement-item {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    width: max-content;
   }
   
   .icon {
